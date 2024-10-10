@@ -6,11 +6,13 @@
     <title>PCM - Home</title>
 </head>
 <body>
-    <nav class="navigation">
-        <ul class="navigation__list">
+    <!-- Navigation, main -->
+    <nav class="navigation navigation--main">
+        <div class="grid">
+            <ul class="navigation__list">
             <div class="navigation__left-content">
                 <li class="navigation__link">
-                    <a href="" class="navigation__item">pcm</a>
+                    <a href="" class="navigation__item logo">pcm</a>
                 </li>    
             </div>
            <div class="navigation__right-content">
@@ -18,25 +20,62 @@
                 <a href="" class="navigation__item">3d configurator</a>
             </li>
             <li class="navigation__link">
-                <a href="" class="navigation__item">About</a>
+                <a href="" class="navigation__item">about</a>
             </li>
             <li class="navigation__link">
-                <a href="" class="navigation__item">Gallery</a>
+                <a href="" class="navigation__item">gallery</a>
             </li>
             <li class="navigation__link">
-                <a href="" class="navigation__item">ham</a>
+                <div class="hamburger">
+                    <div class="circle"></div>
+                    <div class="line line--top"></div>
+                    <div class="line line--bottom"></div>
+                </div>
             </li>
            </div>
         </ul>
-    </nav>
-    <section class="hero">
-        <div class="hero__title">
-            <h1>Platinum Carpentry &amp; Millwork</h1>
         </div>
-        <div class="hero__cta">
-
+        
+    </nav>
+    
+    <!-- Hero section -->
+    <section class="hero">
+        <div class="grid">
+            <div class="hero__title">
+                <h1 class="title">
+                    <span>Platinum Carpentry</span>
+                    <span>&amp; Millwork</span>
+                </h1>
+            </div>
+            <div class="hero__cta">
+                <a href="#" class="cta">enter experience</a>
+            </div>
         </div>
     </section>
+
+    <!-- Navigation, secondary -->
+     <nav class="navigation navigation--secondary">
+        <div class="grid">
+            <ul class="navigation__list">
+                <div class="navigation__left-content">
+                   <li class="navigation__link">
+                        <a href="#" class="navigation__item">Serving the GTA</a>
+                    </li>
+                </div>
+                <div class="navigation__right-content">
+                    <li class="navigation__link">
+                        <a href="#" class="navigation__item">Instagram</a>
+                    </li>
+                    <span class="line--social-media"></span>
+                    <li class="navigation__link">
+                        <a href="#" class="navigation__item">Whatsapp</a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+        
+     </nav>
+
     <!-- <script src=""></script> -->
 </body>
 </html>
